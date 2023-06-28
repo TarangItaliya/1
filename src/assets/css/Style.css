@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Montserrat;
+    background-color: aliceblue;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+i{
+  font-size: 20px;
+}
+button{
+    border: 0;
+}
+input{
+    color: white; 
+     background: none;
+    border: none;
+    font-size: 12px;
+    padding: 12px 0px;
+}
+.fs_12px{
+  font-size: 13px;
+}
+/* ================== scrollbar =================  */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:   none  ;
+}
+
+/* ================== end scrollbar =================  */
+
+@media screen and (max-width:1000px){
+  
+  .tarang_media{
+    width: 78px !important;
+  overflow: hidden !important;
+  transition: .3s !important;
+  }
+  .tarang2_media{
+    color: #0DACF0 !important; ;
+  }
+  .tarang3_media{
+    display: none !important;
+  }
+}
+
+/* ################## LOGIN ################# */
+.sub_login {
+    background-color: #ffffff;
+    width:fit-content;
+    margin: 0px auto;
+  }
+  .main_email input {
+    width: 400px;
+    background-color:  aliceblue;
+  }
+  .text_email {
+    font-size: 12px;
+    
+  }
+  .main_login_button button {
+    background-image: linear-gradient(270deg, #0db2de 0, #005bea) !important;
+    font-size: 12px;
+    padding: 12px 0px;
+}
+.main_login_button button:hover{
+  background-image: linear-gradient(to right, #0db2de 0, #005bea) !important;
+  box-shadow: 1px 1px 3px gray;
+}
+  .sign_up_text div{
+    color: #005bea;
+  }
+  .sign_up_text div:hover{
+    color: #0db2de;
+  }
+  .forget_pass{
+    color: #A020F0;
+  }
+  .user_icon{
+    margin-top:14px ;
+  }
+  .forget_pass:hover{
+    text-shadow: 1px 1px 1px rgb(181, 181, 181);
+  }
+  .error{
+    font-size: 12px;
+  }
+  /* ################## END LOGIN ################# */
+
+  /* ################## SIGN UP ################# */
+  .terms_conditions{
+    font-size: 13px;
+  }
+  /* ################## END SIGN UP ################# */
+
+  /* ################## NAVBAR ################# */
+  .main_nav{
+    background-color: #0DACF0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+  .info_bell_pic .pic{
+    height: 38px;
+    width: 38px;
+  }
+  
+  /* ################## END NAVBAR ################# */
+
+  /* ################## SIDEBAR ################# */
+.main_side_bar{
+  height: 90.5vh;
+  width:  300px;
+  background-color: #0DACF0;
+  transition: .3s;
+  position: sticky;
+  top: 60px;
+}
+.span_icon i{
+  height: 30px;
+  width: 30px;
+}
+.main_menu ul li:hover{
+    color: #FAFF00 ;
+}
+.menu_btn{
+  background: none;
+}
+.tarang{
+  width: 78px;
+  overflow: hidden !important;
+  transition: .3s;
+}
+.tarang2{
+  color: #0DACF0 !important; ;
+}
+.tarang3{
+  display: none !important;
+}
+  /* ################## END SIDEBAR ################# */
+
+  /* ##################  DASHBOARD ################# */
+  .main_dashboard_bg{
+    box-shadow: 0px 0px 1px rgb(107, 107, 107);
+    height: 100vh;
+    overflow: scroll;
+  }
+  .main_search_bar input{
+    box-shadow: 0px 0px 1px rgb(107, 107, 107);
+    border-radius: 5px 0px 0 5px;
+  }
+  .search_icon{
+    box-shadow: 0px 0px 1px rgb(107, 107, 107);
+    border-radius: 0px 5px 5px 0px;
+ }
+.all_dashboard_filter .today_filter:hover{
+  /* background-color: #0DACF0; */
+}
+ .main_revenue_box{
+  background-color: #D1E7DD;
+ }
+ .main_expense_box{
+  background-color: #F8D7DA;
+ }
+ .main_happy_clients_box{
+  background-color: #FFF3CD;
+ }
+ .main_since_box{
+  background-color: #CFF4FC;
+ }
+ .icon_revenue_box{
+  background-color: #198754;
+ }
+ .icon_expense_box{
+  background-color: #DC3545;
+ }
+ .icon_happy_clients_box{
+  background-color: #FFC107;
+ }
+ .icon_since_box{
+  background-color: #0DCAF0;
+ }
+ .icon_revenue_box,.icon_expense_box,.icon_happy_clients_box,.icon_since_box{
+  width: 45px;
+ }
+ .main_revenue_text{
+  color: #198754;
+ }
+ .main_expense_text{
+  color: #DC3545;
+ }
+ .main_happy_clients_text{
+  color: #FFC107;
+ }
+ .main_since_text{
+  color: #0DCAF0;
+ }
+ .number{
+  font-size: 14px;
+ }
+ .all_dashboard_filter{
+  border: 1px solid  #0DACF0;
+ }
+ .customer_text,.number_text{
+  font-size: 14px;
+ }
+ /* ################## END  DASHBOARD ################# */
+
+ /* ################## INVENTORY PAGE ################# */
+ .inventory_filters select{
+  border: 1px solid #0DACF0;
+  font-size: 14px;
+  width: 130px;
+ }
+ /* .inventory_filters select:hover{
+    background-color: #0DACF0;
+    color: white;
+ } */
+.table>:not(caption)>*>*{
+  padding: 15px 0px;
+  font-size: 14px;
+  /* align-items: center; */
+}
+.product_image img {
+  height: 50px;
+  width: 50px;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 0 0;
+  height: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0DACF0;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0DACF0;
+  cursor: pointer;
+}
+.diffrent_bg{
+  background-color: #f9fbfd;
+}
+table tr:hover{
+    background-color: #f0f0f0;
+}
+.add_btn button{
+  background-color: #0DACF0;
+  font-size: 14px;
+}
+.add_btn button span i{
+  font-size: 14px;
+}
+.swap_icon i{
+  font-size: 10px;
+  color: #a0a0a0;
+}
+.swap_icon i:hover{
+  color: black  !important;
+}
+.three_dot_bg .main_view_delete{
+  display: none;
+}
+.three_dot_bg .a_b_c:hover .main_view_delete{
+  display: block !important;
+}
+/* ################## END INVENTORY PAGE ################# */
+
+
+
+
+
+
+
+
+
+
